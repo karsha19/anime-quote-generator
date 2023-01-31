@@ -1,0 +1,84 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://i.pinimg.com/originals/c0/44/64/c04464c3d986cd491c52b8a97cebc3a0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+img {
+    height: 18%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.quote-box-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    height: 40%;
+    width: 70%;
+    box-shadow: 1px 4px 10px 0px rgba(129, 129, 129, 0.75);
+}
+
+.quote-content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    height: 35%;
+    width: 90%;
+    margin: 5px;
+}
+
+.quote-author {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    height: 5%;
+    margin: 5px;
+}
+
+.quote-anime {
+    height: 5%;
+    margin: 5px;
+    font-style: italic;
+}
+
+.quote-button {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    width: 22%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    color: #fdfdfe;
+    background-color: #3c3257;
+    transition-duration: 0.3s;
+    box-shadow: 1px 4px 10px 0px rgba(129, 129, 129, 0.75);
+}
+
+.quote-button:hover {
+    background-color: #3c3257;
+    color: #fdfdfe;
+    transform: scale(1.1);
+}

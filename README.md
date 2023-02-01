@@ -1,6 +1,10 @@
 # anime-quote-generator
+live website: https://audreycj.github.io/anime-quote-generator/
+
 This was a formative assessment for our IT103P (Web Programming) course during my 2nd year as a Computer Science student.
+
 We were tasked to create a frontend to display the data requested from a free public API of our choice.
+
 We were given the following instructions:
 
 -------
